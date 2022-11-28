@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Paginaweb</title>
+<style type="text/css">
+body,td,th {
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-size: 14px;
+    color: rgba(0,0,0,1);
+}
+body {
+    background-image: url(fondo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachmen: fixed;
+    background-color: rgba(229,191,225,1);
+}
+</style>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('botones/Inicio22.png','botones/perros nuevo.png','botones/Gatos nuevo.png','botones/Servicios nuevo.png','botones/Sobrenosotros nuevo.png')">
+<table width="1569" border="0" align="center">
+  <tbody>
+    <tr>
+      <td height="257" colspan="3" align="center" valign="middle"><img src="titulo.png" width="774" height="350" alt=""/></td>
+    </tr>
+    <tr>
+      <td height="59" colspan="2" align="center" bgcolor="#E5BFE1"><h1>SOBRE NOSOTROS</h1></td>
+      <td width="359" rowspan="2" align="right"><p><a href="index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('boton-inicio','','botones/Inicio22.png',1)"><img src="botones/inicio nuevo.png" alt="" width="167" height="68" id="boton-inicio"></a></p>
+        <p><a href="perros.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('boton-perros','','botones/perros nuevo.png',1)"><img src="botones/perros22.png" alt="" width="187" height="68" id="boton-perros"></a></p>
+        <p><a href="gatos.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('boton-gatos','','botones/Gatos nuevo.png',1)"><img src="botones/Gatos22.png" alt="" width="162" height="68" id="boton-gatos"></a></p>
+        <p><a href="servicios.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('boton-servicios','','botones/Servicios nuevo.png',1)"><img src="botones/Servicios22.png" alt="" width="253" height="68" id="boton-servicios"></a></p>
+      <p><a href="sobrenosotros.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('boton-sobrenosotros','','botones/Sobrenosotros nuevo.png',1)"><img src="botones/sobrenosotros22.png" alt="" width="402" height="68" id="boton-sobrenosotros"></a></p></td>
+    </tr>
+    <tr>
+      <td width="596" height="263" align="center" bgcolor="#FFFFFF"><h2><strong>Visión
+        </strong>
+      </h2>
+      <p>Ser líderes en el sector veterinario ofreciendo excelentes tratamientos médicos, servicios de calidad y los mejores productos del mercado, logrando desarrollar relaciones de largo plazo con nuestros clientes y sus mascotas.</p></td>
+      <td width="596" align="center" bgcolor="#FFFFFF"><h2><strong>Misión</strong> </h2>
+        <div></div>
+      Salvaguardar la salud y el bienestar de las mascotas creando conciencia y trasmitiendo valores a la comunidad con un trato humano, respetuoso y responsable, así también, fomentar el crecimiento profesional de todo nuestro personal. </td>
+    </tr>
+    <tr>
+      <td height="312" colspan="3" align="center" valign="middle">Veterinaria &copy; 2022 Todos los derechos Reservados</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
